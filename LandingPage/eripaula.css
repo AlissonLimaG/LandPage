@@ -1,0 +1,237 @@
+p{
+	font-weight: bolder;
+}
+body{
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	overflow-x: hidden;
+}
+figure{
+	margin:0;
+}
+.topo{
+	display: flex;
+	flex-direction: row;
+	box-shadow: 0 10px 17px grey;
+	height: 26vh;
+	width: 100vw;
+	padding-bottom: 1.6vh;
+	background-color: #522312;
+}
+.topo figure img{
+	width: 20vw;
+	height: 27vh;
+	margin: 0px;
+}
+nav{
+	width: 100vw;
+	height: 100%;
+}
+ul{
+	margin: 0;
+	display: flex;
+	align-items:center;
+	justify-content: space-evenly;
+}
+li{
+	-webkit-transition: -webkit-transform .5s ease;
+	list-style-type: none;
+	border:2px solid #CF8124;
+	border-radius: 10px;
+	background-color: ;
+}
+li:hover{
+	-webkit-transform: scale(1.1);
+}
+#listanaveg:hover{
+	background-color: #CF8124;
+	transition: 0.5;
+	opacity: 1;
+	height: 100%;
+}
+.topo nav ul li a{
+	width: 100%;
+	height: 100%;
+	font-size: 3vh;
+	padding: 0 0.5vw 0 0.5vw;
+	font-weight: bolder;
+}
+a:visited{
+	color: whitesmoke;
+}
+a:link{
+	text-decoration: none;
+	color: whitesmoke;
+}
+a:hover{
+	color: white;
+	text-decoration: none;
+	border: 1px solid black 1;
+}
+.apresentacao{
+	height: 25vh;
+	width: 100vw;
+	background-image: url("imagens/imginicial.png");
+	background-size: cover;
+	opacity: 0.95;
+}
+.cardapio{
+	background-repeat: repeat-x;
+	background-image: url(imagens/cascatachocolate.png);
+	background-size: cover;
+	overflow: hidden;
+	background-color: white;
+	margin: 0;
+	width: 100vw;
+	padding-bottom: 15vh;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+}
+.cardapio img{
+	width: 100%;
+	height: 33vh;
+	border-radius: 10px;
+
+}
+.cardapio div{
+	-webkit-transition: -webkit-transform .5s ease;
+	width: 30vh;
+	height:auto;
+	background-color: #522312;
+	border: 3px solid whitesmoke;
+	border-radius: 10px;
+}
+.cardapio div:hover{
+	-webkit-transform: scale(1.1);
+	-webkit-filter: drop-shadow(0 10px 20px #59352D);
+}
+.cardapio header h2{
+	margin: 3vh 48vw 4vh 48vw;
+	text-align: center ;
+	color: whitesmoke;
+	font-size: 5vh;
+}
+.cardapio div h3{
+	color: #FFECD6;
+	margin: 1vh 0 2vh 1vw;
+}
+.cardapio div p{
+	margin: 0 1vw 1vw 1vw;
+	color: whitesmoke;
+}
+
+
+
+.encomendas{
+	overflow: hidden;
+	width: 100vw;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	background-color: white;
+	background-image: url(imagens/cascatacaramelo.png);
+	background-repeat: repeat-x;
+	background-position: 0 100%;
+	background-size: cover;
+	padding:10vh 0 5vh 0;
+}
+.encomendas div{
+	-webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    border: 3px solid #CF8124;
+	border-radius: 10px;
+	width: 15vw;
+	background-color: whitesmoke;
+}
+.encomendas div:hover{
+	-webkit-transform: scale(1.1);
+	-webkit-filter: drop-shadow(0 10px 20px #CF8124);
+}
+.encomendas header h2{
+	text-align: center;
+	margin: 7vh 45vw 3vh 45vw;
+	color: whitesmoke;
+	font-size: 5vh;
+}
+.encomendas img{
+	border-radius: 7px;
+	width: 100%;
+	height: 33vh;
+	margin:0;
+}
+.encomendas h3{
+	text-align: center;
+	color: #CF8124;
+}
+.encomendas p{
+	text-align: center;
+}
+
+
+
+.barrafinal{
+	height: 20vh;
+	width: 100vw;
+	background-image: url("imagens/imginicial.png");
+	background-size: cover;
+	opacity: 0.95;
+}
+
+
+
+.faleconosco{
+	background-color:#CF8124 ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 50vh;
+	margin-bottom: 0;
+}
+label{
+	margin: 0.5vh;
+	color: whitesmoke;
+}
+fieldset{
+	border-radius: 10px;
+	box-shadow: 0 0px 20px black;
+	width: auto;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	border: none;
+}
+textarea{
+	border-radius: 7px;
+	border: none;
+}
+#email{
+	border-radius: 7px;
+	border: none;
+}
+#sub{
+	margin-top: 0.5vh;
+	border: none;
+	border-radius: 7px;
+}
+footer{
+	border-top: 1.5px solid darkgrey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	height: 10vh;
+	width: 100vw;
+	background-color: #522312;
+}
+footer ul{
+	display: flex;
+	gap: 3vw;
+	margin:0;
+}
+footer a{
+	margin: 1vh;
+}
